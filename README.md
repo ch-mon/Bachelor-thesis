@@ -1,4 +1,13 @@
-# Ising model
-Implementation of the classical Ising model with a Wolff-Cluster update algorithm
+# Bachelor thesis
+This project contains the Python code we used for my bachelor's thesis.
+First, we generated different configurations of the 2D Ising model and the 2D rod model via Monte-Carlo-Markov-Chain (MCMC) integration.
+Second, we analyzed these configurations via Principal component analysis (PCA).
+Lastly, we conducted a similar analysis by training and evaluating a Variational Autoencoder (VAE) on the configurations.
 
-The Ising model is one of the most researched statistical models. The exact solution for the order parameter (magnetization) as a function of the temperature is known, thus one can easily test the accuracy of new algorithms on it.
+The different files contain code for:
+1. Simulation of Ising model configurations via MCMC (using the Wolff-Cluster-Algorithm)
+2. Simulation of rod model configurations via MCMC (using the Metropolis-Algorithm)
+3. PCA Analysis on the Ising model configurations
+4. PCA Analysis on the rod model configurations
+5. Training and evaluating a VAE on Ising model configurations
+6. Training and evaluating a VAE on rod model configurations
